@@ -1,5 +1,7 @@
 LLM Test Suite — Local AI Quality Testing with Playwright & Ollama
 
+![Tests](https://img.shields.io/badge/tests-6%20passed-brightgreen)
+
 A test automation suite for validating local LLM (Large Language Model) outputs using Playwright (TypeScript) and Ollama. Built to demonstrate AI quality engineering practices including hallucination detection, output consistency, and format validation.
 
 
@@ -46,7 +48,6 @@ bashnpx playwright test --reporter=list
 Why This Project
 
 AI/LLM systems require a different testing approach from traditional software. Outputs are non-deterministic, models can hallucinate, and response quality degrades in unexpected ways. This suite demonstrates core AI quality assurance techniques applicable to on-premise LLM deployments.
-
 
 Author
 
